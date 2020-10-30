@@ -23,6 +23,7 @@
 									<episode>false</episode>
 									<cleanPackageDirectories>true</cleanPackageDirectories>
 									<forceRegenerate>true</forceRegenerate>
+									<enableIntrospection>true</enableIntrospection>
 								</configuration>
 							</execution>
 						</executions>
