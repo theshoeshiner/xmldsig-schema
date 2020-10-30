@@ -1,5 +1,5 @@
 
-package org.w3._2000._09.xmldsig_;
+package org.w3.v200009.xmldsig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,29 +7,25 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlID;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SignaturePropertyType complex type.
+ * <p>Java class for DigestMethodType complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="SignaturePropertyType"&gt;
+ * &lt;complexType name="DigestMethodType"&gt;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *       &lt;choice maxOccurs="unbounded"&gt;
- *         &lt;any processContents='lax' namespace='##other'/&gt;
- *       &lt;/choice&gt;
- *       &lt;attribute name="Target" use="required" type="{http://www.w3.org/2001/XMLSchema}anyURI" /&gt;
- *       &lt;attribute name="Id" type="{http://www.w3.org/2001/XMLSchema}ID" /&gt;
+ *       &lt;sequence&gt;
+ *         &lt;any processContents='lax' namespace='##other' maxOccurs="unbounded" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *       &lt;attribute name="Algorithm" use="required" type="{http://www.w3.org/2001/XMLSchema}anyURI" /&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
@@ -38,22 +34,17 @@ import org.w3c.dom.Element;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "SignaturePropertyType", propOrder = {
+@XmlType(name = "DigestMethodType", propOrder = {
     "content"
 })
-public class SignaturePropertyType {
+public class DigestMethodType {
 
     @XmlMixed
     @XmlAnyElement(lax = true)
     protected List<Object> content;
-    @XmlAttribute(name = "Target", required = true)
+    @XmlAttribute(name = "Algorithm", required = true)
     @XmlSchemaType(name = "anyURI")
-    protected String target;
-    @XmlAttribute(name = "Id")
-    @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
-    @XmlID
-    @XmlSchemaType(name = "ID")
-    protected String id;
+    protected String algorithm;
 
     /**
      * Gets the value of the content property.
@@ -87,51 +78,27 @@ public class SignaturePropertyType {
     }
 
     /**
-     * Gets the value of the target property.
+     * Gets the value of the algorithm property.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getTarget() {
-        return target;
+    public String getAlgorithm() {
+        return algorithm;
     }
 
     /**
-     * Sets the value of the target property.
+     * Sets the value of the algorithm property.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setTarget(String value) {
-        this.target = value;
-    }
-
-    /**
-     * Gets the value of the id property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getId() {
-        return id;
-    }
-
-    /**
-     * Sets the value of the id property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setId(String value) {
-        this.id = value;
+    public void setAlgorithm(String value) {
+        this.algorithm = value;
     }
 
 }
