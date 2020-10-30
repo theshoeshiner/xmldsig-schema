@@ -23,6 +23,8 @@
 									<noFileHeader>true</noFileHeader>
 									<episode>false</episode>
 									<cleanPackageDirectories>true</cleanPackageDirectories>
+									<forceRegenerate>true</forceRegenerate>
+									
 								</configuration>
 							</execution>
 						</executions>

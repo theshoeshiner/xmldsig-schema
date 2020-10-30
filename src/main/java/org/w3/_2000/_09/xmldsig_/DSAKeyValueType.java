@@ -1,6 +1,7 @@
 
 package org.w3._2000._09.xmldsig_;
 
+import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -46,21 +47,29 @@ import javax.xml.bind.annotation.XmlType;
     "seed",
     "pgenCounter"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class DSAKeyValueType {
 
     @XmlElement(name = "P")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] p;
     @XmlElement(name = "Q")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] q;
     @XmlElement(name = "G")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] g;
     @XmlElement(name = "Y", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] y;
     @XmlElement(name = "J")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] j;
     @XmlElement(name = "Seed")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] seed;
     @XmlElement(name = "PgenCounter")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] pgenCounter;
 
     /**
@@ -70,6 +79,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getP() {
         return p;
     }
@@ -81,6 +91,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setP(byte[] value) {
         this.p = value;
     }
@@ -92,6 +103,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getQ() {
         return q;
     }
@@ -103,6 +115,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setQ(byte[] value) {
         this.q = value;
     }
@@ -114,6 +127,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getG() {
         return g;
     }
@@ -125,6 +139,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setG(byte[] value) {
         this.g = value;
     }
@@ -136,6 +151,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getY() {
         return y;
     }
@@ -147,6 +163,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setY(byte[] value) {
         this.y = value;
     }
@@ -158,6 +175,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getJ() {
         return j;
     }
@@ -169,6 +187,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setJ(byte[] value) {
         this.j = value;
     }
@@ -180,6 +199,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getSeed() {
         return seed;
     }
@@ -191,6 +211,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setSeed(byte[] value) {
         this.seed = value;
     }
@@ -202,6 +223,7 @@ public class DSAKeyValueType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getPgenCounter() {
         return pgenCounter;
     }
@@ -213,6 +235,7 @@ public class DSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setPgenCounter(byte[] value) {
         this.pgenCounter = value;
     }

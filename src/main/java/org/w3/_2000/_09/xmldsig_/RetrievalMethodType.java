@@ -1,6 +1,7 @@
 
 package org.w3._2000._09.xmldsig_;
 
+import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -34,15 +35,19 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "RetrievalMethodType", propOrder = {
     "transforms"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class RetrievalMethodType {
 
     @XmlElement(name = "Transforms")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected TransformsType transforms;
     @XmlAttribute(name = "URI")
     @XmlSchemaType(name = "anyURI")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String uri;
     @XmlAttribute(name = "Type")
     @XmlSchemaType(name = "anyURI")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String type;
 
     /**
@@ -53,6 +58,7 @@ public class RetrievalMethodType {
      *     {@link TransformsType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public TransformsType getTransforms() {
         return transforms;
     }
@@ -65,6 +71,7 @@ public class RetrievalMethodType {
      *     {@link TransformsType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setTransforms(TransformsType value) {
         this.transforms = value;
     }
@@ -77,6 +84,7 @@ public class RetrievalMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getURI() {
         return uri;
     }
@@ -89,6 +97,7 @@ public class RetrievalMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setURI(String value) {
         this.uri = value;
     }
@@ -101,6 +110,7 @@ public class RetrievalMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getType() {
         return type;
     }
@@ -113,6 +123,7 @@ public class RetrievalMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setType(String value) {
         this.type = value;
     }

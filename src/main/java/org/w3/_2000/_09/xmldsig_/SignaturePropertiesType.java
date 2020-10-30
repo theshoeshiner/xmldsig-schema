@@ -3,6 +3,7 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -38,14 +39,17 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlType(name = "SignaturePropertiesType", propOrder = {
     "signatureProperty"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class SignaturePropertiesType {
 
     @XmlElement(name = "SignatureProperty", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<SignaturePropertyType> signatureProperty;
     @XmlAttribute(name = "Id")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     @XmlID
     @XmlSchemaType(name = "ID")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String id;
 
     /**
@@ -70,6 +74,7 @@ public class SignaturePropertiesType {
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<SignaturePropertyType> getSignatureProperty() {
         if (signatureProperty == null) {
             signatureProperty = new ArrayList<SignaturePropertyType>();
@@ -85,6 +90,7 @@ public class SignaturePropertiesType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getId() {
         return id;
     }
@@ -97,6 +103,7 @@ public class SignaturePropertiesType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setId(String value) {
         this.id = value;
     }

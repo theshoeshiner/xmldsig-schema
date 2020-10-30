@@ -1,6 +1,7 @@
 
 package org.w3._2000._09.xmldsig_;
 
+import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -42,24 +43,31 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "digestMethod",
     "digestValue"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class ReferenceType {
 
     @XmlElement(name = "Transforms")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected TransformsType transforms;
     @XmlElement(name = "DigestMethod", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected DigestMethodType digestMethod;
     @XmlElement(name = "DigestValue", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] digestValue;
     @XmlAttribute(name = "Id")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     @XmlID
     @XmlSchemaType(name = "ID")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String id;
     @XmlAttribute(name = "URI")
     @XmlSchemaType(name = "anyURI")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String uri;
     @XmlAttribute(name = "Type")
     @XmlSchemaType(name = "anyURI")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String type;
 
     /**
@@ -70,6 +78,7 @@ public class ReferenceType {
      *     {@link TransformsType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public TransformsType getTransforms() {
         return transforms;
     }
@@ -82,6 +91,7 @@ public class ReferenceType {
      *     {@link TransformsType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setTransforms(TransformsType value) {
         this.transforms = value;
     }
@@ -94,6 +104,7 @@ public class ReferenceType {
      *     {@link DigestMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public DigestMethodType getDigestMethod() {
         return digestMethod;
     }
@@ -106,6 +117,7 @@ public class ReferenceType {
      *     {@link DigestMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setDigestMethod(DigestMethodType value) {
         this.digestMethod = value;
     }
@@ -117,6 +129,7 @@ public class ReferenceType {
      *     possible object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getDigestValue() {
         return digestValue;
     }
@@ -128,6 +141,7 @@ public class ReferenceType {
      *     allowed object is
      *     byte[]
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setDigestValue(byte[] value) {
         this.digestValue = value;
     }
@@ -140,6 +154,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getId() {
         return id;
     }
@@ -152,6 +167,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setId(String value) {
         this.id = value;
     }
@@ -164,6 +180,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getURI() {
         return uri;
     }
@@ -176,6 +193,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setURI(String value) {
         this.uri = value;
     }
@@ -188,6 +206,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getType() {
         return type;
     }
@@ -200,6 +219,7 @@ public class ReferenceType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setType(String value) {
         this.type = value;
     }

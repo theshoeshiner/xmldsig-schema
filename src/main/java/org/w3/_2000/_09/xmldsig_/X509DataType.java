@@ -3,6 +3,7 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -43,6 +44,7 @@ import org.w3c.dom.Element;
 @XmlType(name = "X509DataType", propOrder = {
     "x509IssuerSerialOrX509SKIOrX509SubjectName"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class X509DataType {
 
     @XmlElementRefs({
@@ -53,6 +55,7 @@ public class X509DataType {
         @XmlElementRef(name = "X509CRL", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false)
     })
     @XmlAnyElement(lax = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<Object> x509IssuerSerialOrX509SKIOrX509SubjectName;
 
     /**
@@ -83,6 +86,7 @@ public class X509DataType {
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<Object> getX509IssuerSerialOrX509SKIOrX509SubjectName() {
         if (x509IssuerSerialOrX509SKIOrX509SubjectName == null) {
             x509IssuerSerialOrX509SKIOrX509SubjectName = new ArrayList<Object>();

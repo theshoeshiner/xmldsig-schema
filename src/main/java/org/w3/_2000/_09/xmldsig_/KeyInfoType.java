@@ -3,6 +3,7 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -50,6 +51,7 @@ import org.w3c.dom.Element;
 @XmlType(name = "KeyInfoType", propOrder = {
     "content"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class KeyInfoType {
 
     @XmlElementRefs({
@@ -63,11 +65,13 @@ public class KeyInfoType {
     })
     @XmlMixed
     @XmlAnyElement(lax = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<Object> content;
     @XmlAttribute(name = "Id")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     @XmlID
     @XmlSchemaType(name = "ID")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String id;
 
     /**
@@ -101,6 +105,7 @@ public class KeyInfoType {
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<Object> getContent() {
         if (content == null) {
             content = new ArrayList<Object>();
@@ -116,6 +121,7 @@ public class KeyInfoType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getId() {
         return id;
     }
@@ -128,6 +134,7 @@ public class KeyInfoType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setId(String value) {
         this.id = value;
     }

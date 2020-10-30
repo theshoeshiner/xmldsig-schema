@@ -3,6 +3,7 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -42,18 +43,23 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "signatureMethod",
     "reference"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class SignedInfoType {
 
     @XmlElement(name = "CanonicalizationMethod", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected CanonicalizationMethodType canonicalizationMethod;
     @XmlElement(name = "SignatureMethod", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected SignatureMethodType signatureMethod;
     @XmlElement(name = "Reference", required = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<ReferenceType> reference;
     @XmlAttribute(name = "Id")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     @XmlID
     @XmlSchemaType(name = "ID")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String id;
 
     /**
@@ -64,6 +70,7 @@ public class SignedInfoType {
      *     {@link CanonicalizationMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public CanonicalizationMethodType getCanonicalizationMethod() {
         return canonicalizationMethod;
     }
@@ -76,6 +83,7 @@ public class SignedInfoType {
      *     {@link CanonicalizationMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setCanonicalizationMethod(CanonicalizationMethodType value) {
         this.canonicalizationMethod = value;
     }
@@ -88,6 +96,7 @@ public class SignedInfoType {
      *     {@link SignatureMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public SignatureMethodType getSignatureMethod() {
         return signatureMethod;
     }
@@ -100,6 +109,7 @@ public class SignedInfoType {
      *     {@link SignatureMethodType }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setSignatureMethod(SignatureMethodType value) {
         this.signatureMethod = value;
     }
@@ -126,6 +136,7 @@ public class SignedInfoType {
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<ReferenceType> getReference() {
         if (reference == null) {
             reference = new ArrayList<ReferenceType>();
@@ -141,6 +152,7 @@ public class SignedInfoType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getId() {
         return id;
     }
@@ -153,6 +165,7 @@ public class SignedInfoType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setId(String value) {
         this.id = value;
     }

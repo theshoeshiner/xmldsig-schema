@@ -4,6 +4,7 @@ package org.w3._2000._09.xmldsig_;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -40,14 +41,17 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "SignatureMethodType", propOrder = {
     "content"
 })
+@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class SignatureMethodType {
 
     @XmlElementRef(name = "HMACOutputLength", namespace = "http://www.w3.org/2000/09/xmldsig#", type = JAXBElement.class, required = false)
     @XmlMixed
     @XmlAnyElement(lax = true)
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<Object> content;
     @XmlAttribute(name = "Algorithm", required = true)
     @XmlSchemaType(name = "anyURI")
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String algorithm;
 
     /**
@@ -74,6 +78,7 @@ public class SignatureMethodType {
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<Object> getContent() {
         if (content == null) {
             content = new ArrayList<Object>();
@@ -89,6 +94,7 @@ public class SignatureMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getAlgorithm() {
         return algorithm;
     }
@@ -101,6 +107,7 @@ public class SignatureMethodType {
      *     {@link String }
      *     
      */
+    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setAlgorithm(String value) {
         this.algorithm = value;
     }
