@@ -3,7 +3,6 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
@@ -37,16 +36,13 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "CanonicalizationMethodType", propOrder = {
     "content"
 })
-@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class CanonicalizationMethodType {
 
     @XmlMixed
     @XmlAnyElement(lax = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<Object> content;
     @XmlAttribute(name = "Algorithm", required = true)
     @XmlSchemaType(name = "anyURI")
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String algorithm;
 
     /**
@@ -72,7 +68,6 @@ public class CanonicalizationMethodType {
      * 
      * 
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<Object> getContent() {
         if (content == null) {
             content = new ArrayList<Object>();
@@ -88,7 +83,6 @@ public class CanonicalizationMethodType {
      *     {@link String }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getAlgorithm() {
         return algorithm;
     }
@@ -101,7 +95,6 @@ public class CanonicalizationMethodType {
      *     {@link String }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setAlgorithm(String value) {
         this.algorithm = value;
     }

@@ -3,7 +3,6 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -45,26 +44,20 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "keyInfo",
     "object"
 })
-@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class SignatureType {
 
     @XmlElement(name = "SignedInfo", required = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected SignedInfoType signedInfo;
     @XmlElement(name = "SignatureValue", required = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected SignatureValueType signatureValue;
     @XmlElement(name = "KeyInfo")
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected KeyInfoType keyInfo;
     @XmlElement(name = "Object")
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<ObjectType> object;
     @XmlAttribute(name = "Id")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     @XmlID
     @XmlSchemaType(name = "ID")
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected String id;
 
     /**
@@ -75,7 +68,6 @@ public class SignatureType {
      *     {@link SignedInfoType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public SignedInfoType getSignedInfo() {
         return signedInfo;
     }
@@ -88,7 +80,6 @@ public class SignatureType {
      *     {@link SignedInfoType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setSignedInfo(SignedInfoType value) {
         this.signedInfo = value;
     }
@@ -101,7 +92,6 @@ public class SignatureType {
      *     {@link SignatureValueType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public SignatureValueType getSignatureValue() {
         return signatureValue;
     }
@@ -114,7 +104,6 @@ public class SignatureType {
      *     {@link SignatureValueType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setSignatureValue(SignatureValueType value) {
         this.signatureValue = value;
     }
@@ -127,7 +116,6 @@ public class SignatureType {
      *     {@link KeyInfoType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public KeyInfoType getKeyInfo() {
         return keyInfo;
     }
@@ -140,7 +128,6 @@ public class SignatureType {
      *     {@link KeyInfoType }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setKeyInfo(KeyInfoType value) {
         this.keyInfo = value;
     }
@@ -167,7 +154,6 @@ public class SignatureType {
      * 
      * 
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<ObjectType> getObject() {
         if (object == null) {
             object = new ArrayList<ObjectType>();
@@ -183,7 +169,6 @@ public class SignatureType {
      *     {@link String }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public String getId() {
         return id;
     }
@@ -196,7 +181,6 @@ public class SignatureType {
      *     {@link String }
      *     
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setId(String value) {
         this.id = value;
     }

@@ -1,7 +1,6 @@
 
 package org.w3._2000._09.xmldsig_;
 
-import javax.annotation.Generated;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -33,14 +32,11 @@ import javax.xml.bind.annotation.XmlType;
     "modulus",
     "exponent"
 })
-@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class RSAKeyValueType {
 
     @XmlElement(name = "Modulus", required = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] modulus;
     @XmlElement(name = "Exponent", required = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected byte[] exponent;
 
     /**
@@ -50,7 +46,6 @@ public class RSAKeyValueType {
      *     possible object is
      *     byte[]
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getModulus() {
         return modulus;
     }
@@ -62,7 +57,6 @@ public class RSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setModulus(byte[] value) {
         this.modulus = value;
     }
@@ -74,7 +68,6 @@ public class RSAKeyValueType {
      *     possible object is
      *     byte[]
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public byte[] getExponent() {
         return exponent;
     }
@@ -86,7 +79,6 @@ public class RSAKeyValueType {
      *     allowed object is
      *     byte[]
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public void setExponent(byte[] value) {
         this.exponent = value;
     }

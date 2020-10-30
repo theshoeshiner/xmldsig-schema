@@ -3,7 +3,6 @@ package org.w3._2000._09.xmldsig_;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.Generated;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -40,7 +39,6 @@ import org.w3c.dom.Element;
 @XmlType(name = "KeyValueType", propOrder = {
     "content"
 })
-@Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
 public class KeyValueType {
 
     @XmlElementRefs({
@@ -49,7 +47,6 @@ public class KeyValueType {
     })
     @XmlMixed
     @XmlAnyElement(lax = true)
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     protected List<Object> content;
 
     /**
@@ -78,7 +75,6 @@ public class KeyValueType {
      * 
      * 
      */
-    @Generated(value = "com.sun.tools.xjc.Driver", date = "2020-10-30T03:52:11-04:00", comments = "JAXB RI v2.3.0")
     public List<Object> getContent() {
         if (content == null) {
             content = new ArrayList<Object>();
